@@ -1,0 +1,191 @@
+.mainPart {
+    padding: 100px;
+}
+header {
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    border-bottom: 1px solid black;
+    
+}
+header nav {
+    text-align: center;
+    width: 500px;
+    
+
+}
+header ul {
+    list-style: none;
+    width: 90%;
+    
+}
+header li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid white;
+    border-radius: 20px;
+    
+}
+header li:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+header img {
+    flex: 0;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+header a {
+    color: black;
+}
+.aboutMe {
+    height: 800px;
+    line-height: 2.5rem;
+    letter-spacing: 0.15rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    
+    
+}
+.aboutMe article {
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.aboutMe p {
+    display: inline-block;
+    width: 750px;
+    padding: 50px;
+
+}
+.aboutMe aside {
+    width: 200p;
+    display: inline-block;
+
+
+}
+.aboutMe img {
+    margin-left: 300px;
+    height: 400px;
+    
+    margin-bottom: 60px
+}
+.aboutMe h2 {
+    text-align: center;
+}
+.hobbies {
+    margin-left: 80px;
+    font-size: 1.3rem;
+    margin-top: 80px;
+    border-bottom: 1px solid black;
+}
+.h2Titles {
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.hobbies ul {
+    margin-left: 60px;
+}
+.hobbies li {
+    font-size: 1.7rem;
+    line-height: 5rem;
+    font-family: sans-serif;
+}
+.projects {
+    margin-left: 80px;
+    margin-top: 200px;
+}
+.projects ul {
+    font-size: 1.4rem;
+}
+.projects a {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.projects p {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact {
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contact h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.right {
+    border-left: 1px solid black;
+}
+.prediction {
+    margin-top: 100px;
+    height: 500px;
+    padding: 0 400px;
+    background-color: white;
+    z-index: 4;
+    background-image: url('https://i.redd.it/wdt1pmuhj7c11.jpg');
+    background-repeat: no-repeat;
+    background-size: 40em;
+    background-position: center;
+}
+.box {
+    height: 200px;
+    width: 500px;
+    padding: 200px 300px;
+    
+}
+.phrase {
+    height: 150px;
+    width: 400px;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.prediction h2 {
+    color: white;
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+}
+.prediction button {
+    font-size: 1.2rem;
+}
+.phrase img {
+    position:relative;
+    transition: opacity 2s;
+    
+    opacity: 1;
+    left: 1px;
+    top: 1px;
+    z-index: 2;
+}
+.phrase {
+    overflow: hidden;
+    text-align: center;
+} 
+#ph {
+    font-size: 1.3rem;
+    font-family: monospace;
+}
+.ph {
+    position: relative;
+    z-index: 2;
+}
+footer {
+    margin-top: 50px;
+    padding-left: 50px
+}
